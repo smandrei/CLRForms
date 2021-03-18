@@ -18,9 +18,15 @@
     <ClCompile Include="FormMain.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="data_structure.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FormMain.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="data_structure.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

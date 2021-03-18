@@ -120,9 +120,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="data_structure.cpp" />
     <ClCompile Include="FormMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="data_structure.h" />
     <ClInclude Include="FormMain.h">
       <FileType>CppForm</FileType>
     </ClInclude>
