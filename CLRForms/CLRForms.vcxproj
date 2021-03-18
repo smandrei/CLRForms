@@ -121,14 +121,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="data_structure.cpp" />
+    <ClCompile Include="FormEdit.cpp" />
     <ClCompile Include="FormMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data.h" />
     <ClInclude Include="data_structure.h" />
+    <ClInclude Include="FormEdit.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="FormMain.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormEdit.resx">
+      <DependentUpon>FormEdit.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
